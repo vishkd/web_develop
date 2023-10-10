@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    background-color: white;
+    background-color: rgb(165, 105, 189);
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 180px;
+
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: rgb(244, 236, 247);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: rgb(215, 189, 226);
+
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+
+}
+
+#click0 {
+    background-color: rgb(210, 180, 222);
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#search {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 35px;
+
+
+}
+
+#textarea {
+    color: black;
+    border-radius: 10px;
+}
+
+#box1 {
+    height: 200px;
+    width: 250px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(195, 155, 211);
+    display: block;
+    display: inline-block;
+}
+
+
+
+
+#click {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(108, 52, 131);
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#inner {
+    text-align: center;
+    list-style: disc;
+    margin-left: 45px;
+    text-align: start;
+}
+
+#foot {
+    margin-top: 25px;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+#about {
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 450px;
+    position: relative;
+    top: -80px;
+}
+
+#policies {
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 200px;
+    position: relative;
+    top: -80px;
+}
+
+#insta {
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 1000px;
+    position: relative;
+    top: -100px;
+}
+
+p {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#gmail {
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 35px;
+    margin: 10px 0px 0px 20px;
+    width: 300px;
+
+}
+
+#submit {
+    background-color: rgb(210, 180, 222);
+    display: inline;
+    margin: 10px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#bottom {
+    background-color: rgb(165, 105, 189);
+    height: 400px;
+    padding-top: 20px;
+}
+
+#imp {
+    background-color: rgb(244, 236, 247);
+    padding-bottom: 40px;
+}
+#heading{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
