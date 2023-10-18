@@ -6,15 +6,16 @@
 }
 
 ul {
-    list-style: none;
-    background-color: white;
-    background-color: rgb(165, 105, 189);
+    background-color:#845EC2;
+    height: 80px;
 }
+
+
 
 ul li {
     display: inline-block;
     position: relative;
-    margin-right: 180px;
+    margin-right: 100px;
 
 }
 
@@ -26,157 +27,100 @@ ul li a {
     text-align: center;
 }
 
-ul li ul.dropdown {
-    display: block;
+a:hover {
+    text-decoration: underline;
 }
 
-ul li ul.dropdown {
-    width: 100%;
-    background-color: rgb(244, 236, 247);
-    position: absolute;
-    z-index: 999;
-    display: none;
-}
-
-ul li a:hover {
-    background-color: rgb(215, 189, 226);
-
-}
-
-ul li:hover ul.dropdown {
-    display: block;
-
-}
-
-#click0 {
-    background-color: rgb(210, 180, 222);
-    display: inline;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 50%;
-}
-
-#search {
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 35px;
-
-
-}
-
-#textarea {
-    color: black;
-    border-radius: 10px;
-}
 
 #box1 {
-    height: 200px;
-    width: 250px;
-    margin-top: 25px;
+    height: 400px;
+    width: 500px;
+    margin-top: 110px;
+    display: inline-block;
+    margin-right: 20px;
     border: 1px solid black;
     border-radius: 5px;
-    text-align: center;
+    text-align: justify;
     text-transform: capitalize;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(195, 155, 211);
-    display: block;
+    background-color: #C34A36;
+    box-shadow: 0 1px 4px black;
+    transition: 1s;
+}
+
+#box1:hover {
+    box-shadow: 0 4px 26px black;
+}
+
+#box2 {
+    height: 400px;
+    width: 500px;
+    margin-top: 110px;
     display: inline-block;
-}
-
-
-
-
-#click {
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(108, 52, 131);
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 35px;
-    padding: 0.5em;
-    margin-top: 5px;
-    margin-right: 5px;
-}
-
-#inner {
-    text-align: center;
-    list-style: disc;
-    margin-left: 45px;
-    text-align: start;
-}
-
-#foot {
-    margin-top: 25px;
-    margin-right: 35px;
-    padding: 10px;
-}
-
-#about {
-    font-weight: bolder;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 450px;
-    position: relative;
-    top: -80px;
-}
-
-#policies {
-    font-weight: bolder;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 200px;
-    position: relative;
-    top: -80px;
-}
-
-#insta {
-    font-weight: bolder;
-    font-size: 20px;
-    display: inline-block;
-    margin-left: 1000px;
-    position: relative;
-    top: -100px;
-}
-
-p {
-    margin: 20px;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-#gmail {
-    padding: 14px;
+    margin-right: 20px;
     border: 1px solid black;
-    border-radius: 35px;
-    margin: 10px 0px 0px 20px;
-    width: 300px;
-
+    border-radius: 5px;
+    text-align: justify;
+    text-transform: capitalize;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C34A36;
+    box-shadow: 0 1px 4px black;
+    transition: 1s;
+    position: relative;
+    bottom: 198px;
 }
 
-#submit {
-    background-color: rgb(210, 180, 222);
-    display: inline;
-    margin: 10px;
-    padding: 14px;
-    text-align: center;
-    border-radius: 50%;
+#box2:hover {
+    box-shadow: 0 4px 26px black;
+}
+
+#box3 {
+    height: 400px;
+    width: 500px;
+    margin-top: 110px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: justify;
+    text-transform: capitalize;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#C34A36;
+    box-shadow: 0 1px 4px black;
+    transition: 1s;
+    position: relative;
+    bottom: 198px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+#box3:hover {
+    box-shadow: 0 4px 26px black;
 }
 
 #bottom {
-    background-color: rgb(165, 105, 189);
-    height: 400px;
-    padding-top: 20px;
+    padding-top: 30px;
+    background-color:#BEA6A0;
+    height: 200px;
+    margin-top:0px;
+    padding-top: 45px;
 }
-
-#imp {
-    background-color: rgb(244, 236, 247);
-    padding-bottom: 40px;
+ol li{
+    list-style: none;
+    padding-left: 30px;
+    display: inline-block;
+    margin-right: 100px;
 }
-#heading{
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+ol li a{
+    text-decoration: none;
     
+}
+h4{
+    margin-left: 20px;
+}
+#imp{
+    background-color: #B0A8B9;
 }
