@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.panda {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, #de2cc7, #b857e1, #8a70ef, #5881f2, #128deb); 
+    box-shadow: 2px 2px 4px black;
+    border-radius: 8px;
+    margin: 50px;
+
+}
+
+.panda:hover {
+    box-shadow: 2px 2px 24px black;
+    transition: 2s;
+}
+
+#first,
+#last,
+#email,
+#dob,
+#pwd,
+#confirm {
+    margin-bottom: 10px;
+    height: 25px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px black;
+}
+
+#female {
+    margin-bottom: 10px;
+}
+
+#id {
+    margin-bottom: 10px;
+}
+
+#sign {
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+    font-size: 15px;
+}
+
+#sign:hover {
+    box-shadow: 0px 0px 2px black;
+    text-decoration: underline;
+}
+
+#reset {
+    position: relative;
+    top:25px;
+    right: 170px;
+    border-radius: 8px;
+}
+
+#reset:hover {
+    box-shadow: 0px 0px 2px black;
+}

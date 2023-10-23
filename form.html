@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="third.css">
+</head>
+
+<body>
+    <main>
+        <center>
+
+            <div class="panda">
+
+                <h1>login</h1>
+                <form action="form.php">
+                    <input type="text" placeholder="first Name" id="first"><br>
+                    <input type="text" placeholder="last Name" id="last"><br>
+
+                    <input type="email" placeholder="enter your mail id" id="email"><br>
+                    <label for="male"></label>
+                    <input type="radio" name="gender" id="male">male
+                    <label for="female"></label>
+                    <input type="radio" name="gender" id="female">female <br>
+                    <input type="date" name="dob" id="dob"><br>
+                    <label for="password"></label>
+                    <input type="password" id="pwd" placeholder="enter the new password">
+                    <br><br>
+                    <div id="strength" max="100" min="0" style="width:100px;"></div>
+                    <input type="password" name="word" id="confirm" placeholder="confirm the password"><br>
+                    <input type="checkbox" name="agree" id="terms">i agree all terms and conditions <br>
+                    <input type="submit" value="sign up" id="sign"><br>
+                    <input type="reset" value="reset" id="reset">
+
+
+
+
+            </div>
+
+            
+        </center>
+
+
+
+
+
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
